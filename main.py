@@ -1,0 +1,8 @@
+from website import create_app
+
+# install on mac - pip install flask | pip install flask-login | pip install flask-sqlalchemy
+
+app = create_app()
+
+if __name__ == '__main__':
+    app.run(debug=True)
